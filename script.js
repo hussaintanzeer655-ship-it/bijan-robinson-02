@@ -1,0 +1,1 @@
+(function(){const panels=document.querySelectorAll('.tab-panel'); const tabs=document.querySelectorAll('.tab'); tabs.forEach(t=>t.addEventListener('click',e=>{const id=t.getAttribute('data-tab'); panels.forEach(p=>p.hidden=p.id!==id); }))})();
